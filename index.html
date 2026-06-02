@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>研究所推甄 甄試時間衝突檢查｜跨校撞期一鍵查</title>
+  <meta name="description" content="選學校、選系所，自動檢查碩士班甄試（推甄）第二階段面試／筆試會不會撞期，並一鍵匯入 Google 日曆。涵蓋台政清交成等 9 所頂大。" />
+  <meta property="og:title" content="研究所推甄 甄試時間衝突檢查" />
+  <meta property="og:description" content="跨校選系所，自動標出甄試撞期，一鍵匯入 Google 日曆。9 所頂大。" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#2563eb" />
+  <style>
+    :root {
+      --bg: #f6f7f9; --card: #fff; --line: #e3e6ea; --text: #1f2933;
+      --muted: #7b8794; --brand: #2563eb; --brand-d: #1e40af;
+      --bad: #dc2626; --bad-bg: #fef2f2; --warn: #d97706; --warn-bg: #fffbeb; --ok: #059669;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text); line-height: 1.6;
+      font-family: "PingFang TC", "Noto Sans TC", system-ui, -apple-system, sans-serif;
+    }
+    header {
+      background: linear-gradient(135deg, var(--brand), var(--brand-d));
+      color: #fff; padding: 22px 20px;
+    }
+    header h1 { margin: 0 0 4px; font-size: 22px; }
+    header p { margin: 0; opacity: 0.9; font-size: 14px; }
+    .wrap { max-width: 1000px; margin: 0 auto; padding: 20px; }
+
+    /* stepper */
+    .stepper { display: flex; gap: 8px; margin-bottom: 18px; flex-wrap: wrap; }
+    .step {
+      flex: 1; min-width: 140px; padding: 10px 12px; border-radius: 10px;
+      background: var(--card); border: 1px solid var(--line); font-size: 14px;
+      color: var(--muted); display: flex; align-items: center; gap: 8px; cursor: pointer;
+    }
+    .step.active { border-color: var(--brand); color: var(--brand); font-weight: 600; box-shadow: 0 0 0 1px var(--brand) inset; }
+    .step.done { color: var(--ok); }
+    .step .n {
+      width: 22px; height: 22px; border-radius: 50%; background: var(--line);
+      color: #fff; display: grid; place-items: center; font-size: 12px; flex: none;
+    }
+    .step.active .n { background: var(--brand); }
+    .step.done .n { background: var(--ok); }
+
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px; }
+    .muted { color: var(--muted); font-size: 14px; }
+    .hidden-view { display: none; }
+
+    /* cart bar */
+    #cartbar {
+      position: sticky; top: 0; z-index: 5; display: flex; align-items: center;
+      justify-content: space-between; gap: 12px; background: #eef4ff;
+      border: 1px solid #c7dbff; border-radius: 10px; padding: 10px 14px; margin-bottom: 16px;
+    }
+    #cartbar.empty { display: none; }
+    #cartbar .info { font-size: 14px; }
+    #cartbar b { color: var(--brand); }
+    .btn {
+      font: inherit; font-size: 14px; padding: 8px 16px; border-radius: 8px;
+      border: 1px solid var(--brand); background: var(--brand); color: #fff; cursor: pointer;
+    }
+    .btn.ghost { background: #fff; color: var(--brand); }
+    .btn.sm { padding: 4px 10px; font-size: 12px; }
+    .btn:hover { opacity: 0.92; }
+
+    /* school grid */
+    .school-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
+    .school-card {
+      border: 1px solid var(--line); border-radius: 12px; padding: 16px; cursor: pointer;
+      transition: 0.15s; background: var(--card); position: relative;
+    }
+    .school-card:hover { border-color: var(--brand); transform: translateY(-2px); box-shadow: 0 4px 14px rgba(37,99,235,0.12); }
+    .school-card.soon { opacity: 0.55; cursor: not-allowed; }
+    .school-card.soon:hover { transform: none; box-shadow: none; border-color: var(--line); }
+    .school-card h3 { margin: 0 0 6px; font-size: 17px; }
+    .school-card .meta { font-size: 13px; color: var(--muted); }
+    .school-card .picked-tag {
+      position: absolute; top: 10px; right: 10px; background: var(--brand); color: #fff;
+      font-size: 12px; padding: 1px 8px; border-radius: 999px;
+    }
+    .soon-tag { font-size: 12px; color: var(--warn); }
+
+    /* deadline banner */
+    .deadlines {
+      display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 12px;
+    }
+    .dl-chip {
+      flex: 1; min-width: 150px; border: 1px solid var(--line); border-radius: 10px;
+      padding: 9px 12px; background: #fff; font-size: 13px;
+    }
+    .dl-chip .k { color: var(--muted); font-size: 12px; }
+    .dl-chip .v { font-weight: 700; font-variant-numeric: tabular-nums; }
+    .dl-chip.pay { background: var(--warn-bg); border-color: #fde68a; }
+    .dl-chip.pay .v { color: var(--warn); }
+    .dl-note { font-size: 11px; color: var(--muted); }
+
+    /* dept picker */
+    .toprow { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+    .toprow h2 { margin: 0; font-size: 18px; }
+    #search { flex: 1; min-width: 160px; padding: 9px 12px; font: inherit; font-size: 14px; border: 1px solid var(--line); border-radius: 8px; }
+    #search:focus { outline: 2px solid var(--brand); border-color: var(--brand); }
+    #global-search {
+      width: 100%; padding: 11px 14px; font: inherit; font-size: 15px;
+      border: 1px solid var(--line); border-radius: 10px; margin-bottom: 12px;
+    }
+    #global-search:focus { outline: 2px solid var(--brand); border-color: var(--brand); }
+    #global-results { margin-bottom: 8px; }
+    #global-results .gr-hint { color: var(--muted); font-size: 13px; padding: 4px 2px; }
+    .gr-school { font-size: 13px; color: var(--brand); font-weight: 600; margin: 10px 0 4px; }
+    .prog-school { font-size: 12px; color: var(--muted); }
+    label.program {
+      display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 6px 10px;
+      padding: 9px 8px; border-radius: 8px; cursor: pointer; font-size: 14px; border-bottom: 1px solid #f1f3f5;
+    }
+    label.program:hover { background: #f1f5f9; }
+    label.program.hidden { display: none; }
+    .prog-name { font-weight: 600; }
+    .prog-exam { grid-column: 2/3; font-size: 12px; color: var(--muted); }
+    .prog-link { grid-row: 1/3; grid-column: 3; font-size: 12px; color: var(--brand); text-decoration: none; white-space: nowrap; }
+    .prog-link:hover { text-decoration: underline; }
+
+    /* results */
+    .summary { font-size: 15px; margin: 0 0 12px; }
+    .ok { color: var(--ok); font-weight: 600; } .bad { color: var(--bad); font-weight: 600; } .warn { color: var(--warn); font-weight: 600; }
+    .conflict-item { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 8px 10px; border-radius: 8px; margin-bottom: 8px; font-size: 14px; }
+    .lv-bad { background: var(--bad-bg); border: 1px solid #fecaca; }
+    .lv-warn { background: var(--warn-bg); border: 1px solid #fde68a; }
+    .conflict-tag { font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 6px; color: #fff; }
+    .lv-bad .conflict-tag { background: var(--bad); } .lv-warn .conflict-tag { background: var(--warn); }
+    .conflict-date { color: var(--muted); font-variant-numeric: tabular-nums; }
+    .conflict-pair { flex-basis: 100%; }
+
+    /* calendar */
+    .cal { margin-top: 10px; }
+    .cal-month { margin-bottom: 18px; }
+    .cal-month h4 { margin: 0 0 8px; font-size: 15px; }
+    .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+    .cal-h { text-align: center; font-size: 12px; color: var(--muted); padding: 2px 0; }
+    .cal-cell { min-height: 56px; border: 1px solid var(--line); border-radius: 6px; padding: 3px 4px; font-size: 11px; }
+    .cal-cell.empty { border: none; }
+    .cal-cell .d { font-size: 11px; color: var(--muted); }
+    .cal-cell.has { background: #eff6ff; border-color: #bfdbfe; }
+    .cal-cell.conflict { background: var(--bad-bg); border-color: #fecaca; }
+    .cal-ev { display: block; margin-top: 2px; padding: 1px 3px; border-radius: 4px; background: var(--brand); color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .cal-cell.conflict .cal-ev { background: var(--bad); }
+    .cal-ev.dl { background: var(--warn) !important; }
+
+    .ev-list { margin-top: 8px; }
+    .ev-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: baseline; padding: 7px 8px; border-radius: 6px; font-size: 13px; background: #f8fafc; margin-bottom: 5px; }
+    .ev-row.conflict { background: var(--bad-bg); }
+    .ev-row.dl { background: var(--warn-bg); }
+    .ev-date { font-variant-numeric: tabular-nums; color: var(--muted); min-width: 130px; }
+    .ev-name { font-weight: 600; flex: 1; }
+    .gcal { font-size: 12px; color: var(--brand); text-decoration: none; white-space: nowrap; }
+    .gcal:hover { text-decoration: underline; }
+
+    .export-bar { display: flex; gap: 10px; flex-wrap: wrap; margin: 16px 0; }
+    .toolbar { display: flex; gap: 10px; margin-top: 12px; }
+    footer { max-width: 1000px; margin: 0 auto; padding: 0 20px 30px; color: var(--muted); font-size: 12px; }
+
+    /* ===== 手機版優化 ===== */
+    @media (max-width: 600px) {
+      header { padding: 16px 16px; }
+      header h1 { font-size: 18px; }
+      header p { font-size: 13px; }
+      .wrap { padding: 14px; }
+      .card { padding: 14px; border-radius: 10px; }
+      /* 步驟列：橫向縮排，文字小一點，不換行擠成一團 */
+      .stepper { gap: 6px; }
+      .step { min-width: 0; flex: 1; padding: 8px 6px; font-size: 12px; flex-direction: column; gap: 3px; text-align: center; }
+      .step .n { width: 20px; height: 20px; }
+      /* 購物車列：標題與按鈕可換行 */
+      #cartbar { flex-wrap: wrap; gap: 8px; padding: 10px; }
+      /* 學校卡片：一行兩個 */
+      .school-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+      .school-card { padding: 12px; }
+      .school-card h3 { font-size: 15px; }
+      /* 報名/繳費 chip：直向堆疊 */
+      .deadlines { flex-direction: column; }
+      .dl-chip { min-width: 0; }
+      /* 日曆：縮小避免溢出，星期標題保留 */
+      .cal-cell { min-height: 46px; padding: 2px; font-size: 10px; }
+      .cal-ev { font-size: 9px; padding: 1px 2px; }
+      .cal-grid { gap: 2px; }
+      /* 系所列：日期換到下一行不擠 */
+      .prog-exam { grid-column: 1 / -1; }
+      .ev-date { min-width: 110px; }
+      .export-bar .btn { flex: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>研究所推甄 ・ 甄試時間衝突檢查</h1>
+    <p>選學校 → 選系所 → 一鍵產生日曆並匯入 Google 日曆，自動標出撞期。</p>
+  </header>
+
+  <div class="wrap">
+    <div class="stepper">
+      <div class="step active" data-step="schools"><span class="n">1</span>選擇學校</div>
+      <div class="step" data-step="dept"><span class="n">2</span>選擇系所</div>
+      <div class="step" data-step="result"><span class="n">3</span>日曆結果 / 匯出</div>
+    </div>
+
+    <div id="cartbar" class="empty">
+      <span class="info">已選 <b id="cart-count">0</b> 個系所</span>
+      <div>
+        <button class="btn ghost sm" id="cart-clear">清空</button>
+        <button class="btn sm" id="cart-go">查看日曆結果 →</button>
+      </div>
+    </div>
+
+    <!-- Step 1: 學校 -->
+    <section id="view-schools" class="card">
+      <h2 style="margin-top:0">選擇你要報考的學校</h2>
+      <p class="muted">可跨多校選系所，最後一起檢查撞期。知道想考什麼系所？直接搜尋更快：</p>
+      <input id="global-search" type="search" placeholder="🔍 跨全部學校搜尋系所（例如：企管、資工、機械、財金）" autocomplete="off" />
+      <div id="global-results"></div>
+      <div class="school-grid" id="school-grid"></div>
+    </section>
+
+    <!-- Step 2: 系所 -->
+    <section id="view-dept" class="card hidden-view">
+      <div class="toprow">
+        <button class="btn ghost sm" id="back-schools">← 學校</button>
+        <h2 id="dept-title">系所</h2>
+      </div>
+      <div id="dept-deadlines" class="deadlines"></div>
+      <input id="search" type="search" placeholder="🔍 搜尋系所（例如：機械、化工、企管）" autocomplete="off" />
+      <div id="picker"></div>
+      <div class="toolbar">
+        <button class="btn" id="dept-go">查看日曆結果 →</button>
+      </div>
+    </section>
+
+    <!-- Step 3: 結果 -->
+    <section id="view-result" class="card hidden-view">
+      <div class="toprow">
+        <button class="btn ghost sm" id="back-dept">← 繼續選系所</button>
+        <h2 style="margin:0">日曆結果</h2>
+      </div>
+      <div id="conflicts"></div>
+      <div id="result-deadlines" class="deadlines"></div>
+      <div class="export-bar">
+        <button class="btn" id="dl-ics">⬇️ 下載 .ics（匯入 Google 日曆）</button>
+        <button class="btn ghost" id="how-import">如何匯入？</button>
+      </div>
+      <div id="calendar" class="cal"></div>
+      <div id="evlist" class="ev-list"></div>
+      <div id="nodate" class="ev-list"></div>
+    </section>
+  </div>
+
+  <footer>
+    🧪 <b>測試版</b>　資料為 <b>115 學年度（2025 年）</b>各校簡章自動解析，僅供測試與了解流程；
+    正式報名請以各校 116 學年度官方簡章為準。部分系所（台大／清華／中央／中正）甄試日期簡章未列，標示為「待系所公告」。
+    勾選狀態存在你自己的瀏覽器。<br>
+    💬 試用有任何問題或建議，歡迎直接告訴我們，幫助把它做得更好！
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="schoolinfo.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
