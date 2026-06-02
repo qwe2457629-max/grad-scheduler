@@ -1,8 +1,6 @@
-/* ============================================================
- *  研究所推甄 時間衝突檢查 — 資料檔（115學年度真實資料・9校）
- *  台大214/陽明交大120/成大86/清華(80)/中山74/政大73/中興45/中正43/中央43
- *  解析器在 scraper/，來源見 SOURCES.md。正式上線更新116。
- * ============================================================ */
+/* 研究所推甄 甄試時間衝突檢查 — data（115學年度真實資料・9校）
+ *  台大214/陽明交大120/成大86/中山74/政大73/清華64/中興45/中正43/中央43
+ *  解析器在 scraper/，來源見 SOURCES.md。正式上線更新116。 */
 
 const PROGRAMS =
 [
@@ -12645,7 +12643,7 @@ const PROGRAMS =
   {
     "id": "nthu-0",
     "school": "清華大學",
-    "dept": "半導體研究學院",
+    "dept": "數學系碩士班",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
@@ -12663,13 +12661,13 @@ const PROGRAMS =
   {
     "id": "nthu-1",
     "school": "清華大學",
-    "dept": "生命科學暨醫學院",
+    "dept": "統計與數據科學研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "2025-11-15",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
         "type": "複試",
@@ -12681,25 +12679,25 @@ const PROGRAMS =
   {
     "id": "nthu-2",
     "school": "清華大學",
-    "dept": "醫學資訊碩士學位學程",
+    "dept": "計算與建模科學研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "2025-11-08",
+        "date": "",
         "start": "",
         "end": "",
         "type": "複試",
-        "note": "",
-        "tentative": false
+        "note": "複試日期請見系所公告",
+        "tentative": true
       }
     ]
   },
   {
     "id": "nthu-3",
     "school": "清華大學",
-    "dept": "分工學程",
+    "dept": "物理學系",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
@@ -12717,114 +12715,6 @@ const PROGRAMS =
   {
     "id": "nthu-4",
     "school": "清華大學",
-    "dept": "跨領域學程",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "複試日期請見系所公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-5",
-    "school": "清華大學",
-    "dept": "生醫學院",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "複試日期請見系所公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-6",
-    "school": "清華大學",
-    "dept": "精準醫療學程",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "複試日期請見系所公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-7",
-    "school": "清華大學",
-    "dept": "原科院聯招",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "複試日期請見系所公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-8",
-    "school": "清華大學",
-    "dept": "數學系碩士班",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-07",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-9",
-    "school": "清華大學",
-    "dept": "統計與數據科學研究所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-14",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-10",
-    "school": "清華大學",
     "dept": "天文研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
@@ -12841,7 +12731,7 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-11",
+    "id": "nthu-5",
     "school": "清華大學",
     "dept": "化學系碩士班",
     "group": "",
@@ -12859,7 +12749,61 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-12",
+    "id": "nthu-6",
+    "school": "清華大學",
+    "dept": "半導體研究學院",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-7",
+    "school": "清華大學",
+    "dept": "生命科學暨醫學院",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-15",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-8",
+    "school": "清華大學",
+    "dept": "醫學資訊碩士學位學程",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-08",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-9",
     "school": "清華大學",
     "dept": "材料科學工程學系",
     "group": "",
@@ -12877,7 +12821,7 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-13",
+    "id": "nthu-10",
     "school": "清華大學",
     "dept": "化學工程學系",
     "group": "",
@@ -12895,7 +12839,7 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-14",
+    "id": "nthu-11",
     "school": "清華大學",
     "dept": "生物醫學工程研究所",
     "group": "",
@@ -12913,7 +12857,7 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-15",
+    "id": "nthu-12",
     "school": "清華大學",
     "dept": "動力機械工程學系",
     "group": "",
@@ -12931,511 +12875,7 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-16",
-    "school": "清華大學",
-    "dept": "奈米工程與微系統研究所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-03",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-17",
-    "school": "清華大學",
-    "dept": "太空工程研究所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-03",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-18",
-    "school": "清華大學",
-    "dept": "電機工程學系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "複試日期請見系所公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-19",
-    "school": "清華大學",
-    "dept": "光電工程研究所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "複試日期請見系所公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-20",
-    "school": "清華大學",
-    "dept": "電子工程研究所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "複試日期請見系所公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-21",
-    "school": "清華大學",
-    "dept": "通訊工程研究所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "複試日期請見系所公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-22",
-    "school": "清華大學",
-    "dept": "資訊工程學系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "複試日期請見系所公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-23",
-    "school": "清華大學",
-    "dept": "資訊工程學系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-14",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-24",
-    "school": "清華大學",
-    "dept": "資訊系統與應用研究所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-14",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-25",
-    "school": "清華大學",
-    "dept": "資訊安全研究所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-14",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-26",
-    "school": "清華大學",
-    "dept": "分析與環境科學研究所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-07",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-27",
-    "school": "清華大學",
-    "dept": "工程與系統科學系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-07",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-28",
-    "school": "清華大學",
-    "dept": "歷史研究所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-05",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-29",
-    "school": "清華大學",
-    "dept": "語言學研究所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-07",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-30",
-    "school": "清華大學",
-    "dept": "台灣文學研究所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-07",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-31",
-    "school": "清華大學",
-    "dept": "中國文學系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-07",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-32",
-    "school": "清華大學",
-    "dept": "外國語文學系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-05",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-33",
-    "school": "清華大學",
-    "dept": "哲學研究所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-01",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-34",
-    "school": "清華大學",
-    "dept": "經濟學系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-03",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-35",
-    "school": "清華大學",
-    "dept": "服務科學研究所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-10",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-36",
-    "school": "清華大學",
-    "dept": "計量財務金融學系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-13",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-37",
-    "school": "清華大學",
-    "dept": "科技藝術研究所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-14",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-38",
-    "school": "清華大學",
-    "dept": "跨院國際碩士學位學程",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-14",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-39",
-    "school": "清華大學",
-    "dept": "跨院國際碩士學位學程",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-03",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-40",
-    "school": "清華大學",
-    "dept": "台北政經學院",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "複試日期請見系所公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-41",
-    "school": "清華大學",
-    "dept": "物理學系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-14",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-42",
-    "school": "清華大學",
-    "dept": "化學工程學系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "2025-11-14",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "",
-        "tentative": false
-      }
-    ]
-  },
-  {
-    "id": "nthu-43",
-    "school": "清華大學",
-    "dept": "奈米工程與微系統研究所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "複試",
-        "note": "複試日期請見系所公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-44",
+    "id": "nthu-13",
     "school": "清華大學",
     "dept": "工業工程與工程管理學系",
     "group": "",
@@ -13453,15 +12893,15 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-45",
+    "id": "nthu-14",
     "school": "清華大學",
-    "dept": "生物醫學工程研究所",
+    "dept": "奈米工程與微系統研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "2025-11-06",
+        "date": "2025-11-03",
         "start": "",
         "end": "",
         "type": "複試",
@@ -13471,7 +12911,187 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-46",
+    "id": "nthu-15",
+    "school": "清華大學",
+    "dept": "太空工程研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-03",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-16",
+    "school": "清華大學",
+    "dept": "電機工程學系",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "nthu-17",
+    "school": "清華大學",
+    "dept": "光電工程研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "nthu-18",
+    "school": "清華大學",
+    "dept": "電子工程研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "nthu-19",
+    "school": "清華大學",
+    "dept": "通訊工程研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "nthu-20",
+    "school": "清華大學",
+    "dept": "資訊工程學系",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "nthu-21",
+    "school": "清華大學",
+    "dept": "資訊工程學系",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-14",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-22",
+    "school": "清華大學",
+    "dept": "資訊系統與應用研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-14",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-23",
+    "school": "清華大學",
+    "dept": "資訊安全研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-10",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-24",
+    "school": "清華大學",
+    "dept": "分析與環境科學研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-25",
     "school": "清華大學",
     "dept": "工程與系統科學系",
     "group": "",
@@ -13479,7 +13099,7 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "2025-11-13",
+        "date": "2025-11-15",
         "start": "",
         "end": "",
         "type": "複試",
@@ -13489,7 +13109,25 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-47",
+    "id": "nthu-26",
+    "school": "清華大學",
+    "dept": "工程與系統科學系",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "nthu-27",
     "school": "清華大學",
     "dept": "核子工程與科學研究所",
     "group": "",
@@ -13507,15 +13145,15 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-48",
+    "id": "nthu-28",
     "school": "清華大學",
-    "dept": "人類學研究所",
+    "dept": "原子科學院",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "2025-11-07",
+        "date": "2025-11-08",
         "start": "",
         "end": "",
         "type": "複試",
@@ -13525,9 +13163,9 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-49",
+    "id": "nthu-29",
     "school": "清華大學",
-    "dept": "社會學研究所",
+    "dept": "歷史研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
@@ -13543,15 +13181,15 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-50",
+    "id": "nthu-30",
     "school": "清華大學",
-    "dept": "中國文學系",
+    "dept": "語言學研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "2025-11-14",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
         "type": "複試",
@@ -13561,7 +13199,7 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-51",
+    "id": "nthu-31",
     "school": "清華大學",
     "dept": "台灣文學研究所",
     "group": "",
@@ -13569,6 +13207,96 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
+        "date": "2025-11-13",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-32",
+    "school": "清華大學",
+    "dept": "中國文學系",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-33",
+    "school": "清華大學",
+    "dept": "外國語文學系",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-05",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-34",
+    "school": "清華大學",
+    "dept": "哲學研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-01",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-35",
+    "school": "清華大學",
+    "dept": "社會學研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-36",
+    "school": "清華大學",
+    "dept": "人類學研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
         "date": "2025-11-14",
         "start": "",
         "end": "",
@@ -13579,15 +13307,15 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-52",
+    "id": "nthu-37",
     "school": "清華大學",
-    "dept": "哲學研究所",
+    "dept": "亞際文化研究國際碩士學位學程",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "2025-11-07",
+        "date": "2025-11-10",
         "start": "",
         "end": "",
         "type": "複試",
@@ -13597,7 +13325,43 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-53",
+    "id": "nthu-38",
+    "school": "清華大學",
+    "dept": "華文文學研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-08",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-39",
+    "school": "清華大學",
+    "dept": "華語文碩士學位學程",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-03",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-40",
     "school": "清華大學",
     "dept": "經濟學系",
     "group": "",
@@ -13605,7 +13369,7 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "2025-11-07",
+        "date": "2025-11-06",
         "start": "",
         "end": "",
         "type": "複試",
@@ -13615,7 +13379,43 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-54",
+    "id": "nthu-41",
+    "school": "清華大學",
+    "dept": "科技法律研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-13",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-42",
+    "school": "清華大學",
+    "dept": "科技法律研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-21",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-43",
     "school": "清華大學",
     "dept": "科技管理研究所",
     "group": "",
@@ -13633,7 +13433,25 @@ const PROGRAMS =
     ]
   },
   {
-    "id": "nthu-55",
+    "id": "nthu-44",
+    "school": "清華大學",
+    "dept": "服務科學研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-13",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-45",
     "school": "清華大學",
     "dept": "計量財務金融學系",
     "group": "",
@@ -13641,7 +13459,187 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "2025-11-06",
+        "date": "2025-11-13",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-46",
+    "school": "清華大學",
+    "dept": "國際專業管理碩士班",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-10",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-47",
+    "school": "清華大學",
+    "dept": "學習科學與科技研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-14",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-48",
+    "school": "清華大學",
+    "dept": "教育與學習科技學系",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-49",
+    "school": "清華大學",
+    "dept": "教育與學習科技學系",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-08",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-50",
+    "school": "清華大學",
+    "dept": "幼兒教育學系",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-51",
+    "school": "清華大學",
+    "dept": "特殊教育學系",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-14",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-52",
+    "school": "清華大學",
+    "dept": "教育心理與諮商學系",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-53",
+    "school": "清華大學",
+    "dept": "英語教學系",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-54",
+    "school": "清華大學",
+    "dept": "環境與文化資源學系",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-55",
+    "school": "清華大學",
+    "dept": "臺灣語言研究與教學研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-14",
         "start": "",
         "end": "",
         "type": "複試",
@@ -13653,13 +13651,13 @@ const PROGRAMS =
   {
     "id": "nthu-56",
     "school": "清華大學",
-    "dept": "教育與學習科技學系",
+    "dept": "數理教育研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "2025-11-06",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
         "type": "複試",
@@ -13671,13 +13669,121 @@ const PROGRAMS =
   {
     "id": "nthu-57",
     "school": "清華大學",
-    "dept": "臺灣語言研究與教學研究所",
+    "dept": "運動科學系",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
         "date": "2025-11-14",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-58",
+    "school": "清華大學",
+    "dept": "藝術與設計學系",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-59",
+    "school": "清華大學",
+    "dept": "科技藝術研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-14",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-60",
+    "school": "清華大學",
+    "dept": "跨院國際碩士學位學程",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-03",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-61",
+    "school": "清華大學",
+    "dept": "台北政經學院",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "nthu-62",
+    "school": "清華大學",
+    "dept": "永續科技碩士學位學程",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-03",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-63",
+    "school": "清華大學",
+    "dept": "永續經營與氣候政策研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-05",
         "start": "",
         "end": "",
         "type": "複試",
