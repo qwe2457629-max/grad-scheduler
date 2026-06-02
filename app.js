@@ -24,11 +24,32 @@ const byId = (id) => PROGRAMS.find((p) => p.id === id);
 const progsOf = (school) => PROGRAMS.filter((p) => p.school === school);
 const fmt = (p) => `${p.dept}${p.group ? "（" + p.group + "）" : ""}`;
 const fmtFull = (p) => `${shortSchool(p.school)} ${fmt(p)}`;
+const SEARCH_ALIASES = {
+  "企管": ["企業管理", "工商管理"],
+  "資工": ["資訊工程", "資訊科學"],
+  "財金": ["財務金融", "財務管理", "金融"],
+  "化工": ["化學工程"],
+  "電機": ["電機工程", "電子"],
+};
 function shortSchool(s) {
   return { 臺灣大學: "臺大", 政治大學: "政大", 清華大學: "清大", 陽明交通大學: "陽明交大",
     成功大學: "成大", 中興大學: "中興", 中正大學: "中正", 中山大學: "中山", 中央大學: "中央" }[s] || s;
 }
 const md = (iso) => (iso ? `${+iso.slice(5, 7)}/${iso.slice(8, 10)}` : "");
+function searchTokens(q) {
+  const kw = q.trim().toLowerCase();
+  if (!kw) return [];
+  return [kw, ...(SEARCH_ALIASES[kw] || []).map((s) => s.toLowerCase())];
+}
+function searchableText(p) {
+  return [p.school, shortSchool(p.school), p.dept, p.group || ""].join(" ").toLowerCase();
+}
+function matchesProgram(p, q) {
+  const tokens = searchTokens(q);
+  if (!tokens.length) return true;
+  const text = searchableText(p);
+  return tokens.some((token) => text.includes(token));
+}
 function selectedSchools() {
   return [...new Set(PROGRAMS.filter((p) => selected.has(p.id)).map((p) => p.school))];
 }
@@ -135,8 +156,7 @@ function renderGlobalSearch(q) {
   if (!kw) { grid.style.display = ""; box.innerHTML = ""; return; }
   grid.style.display = "none";
 
-  const hits = PROGRAMS.filter((p) =>
-    (p.school + p.dept + p.group).toLowerCase().includes(kw));
+  const hits = PROGRAMS.filter((p) => matchesProgram(p, kw));
   if (!hits.length) {
     box.innerHTML = `<div class="gr-hint">找不到「${q}」相關系所，換個關鍵字或回下方選學校。</div>`;
     return;
@@ -205,9 +225,11 @@ function renderPicker(school) {
   };
 }
 function filterPicker(q) {
-  const kw = q.trim().toLowerCase();
-  for (const label of document.querySelectorAll("#picker .program"))
-    label.classList.toggle("hidden", kw !== "" && !label.textContent.toLowerCase().includes(kw));
+  const tokens = searchTokens(q);
+  for (const label of document.querySelectorAll("#picker .program")) {
+    const text = label.textContent.toLowerCase();
+    label.classList.toggle("hidden", tokens.length > 0 && !tokens.some((token) => text.includes(token)));
+  }
 }
 
 /* ---------- 購物車列 ---------- */
@@ -435,6 +457,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!selected.size || !confirm("確定清空所有已選系所？")) return;
     selected.clear(); saveSelected(); updateCart();
     document.querySelectorAll('input[type="checkbox"]:checked').forEach((c) => (c.checked = false));
+    if (!document.getElementById("view-result").classList.contains("hidden-view")) renderResult();
   });
   document.querySelectorAll(".step").forEach((el) =>
     el.addEventListener("click", () => {
@@ -444,6 +467,10 @@ document.addEventListener("DOMContentLoaded", () => {
       else if (s === "result") renderResult();
     }));
   document.getElementById("dl-ics").addEventListener("click", downloadICS);
-  document.getElementById("how-import").addEventListener("click", () =>
-    alert("匯入 Google 日曆步驟：\n\n1. 點「下載 .ics」取得檔案\n2. 打開 Google 日曆（電腦版）\n3. 右上齒輪 → 設定 → 匯入與匯出\n4. 選擇剛下載的 .ics 檔 → 匯入\n\n或：每場點「＋Google」可單筆加入。"));
+  document.getElementById("how-import").addEventListener("click", () => {
+    const help = document.getElementById("import-help");
+    const willOpen = help.classList.contains("hidden-view");
+    help.classList.toggle("hidden-view", !willOpen);
+    document.getElementById("how-import").setAttribute("aria-expanded", String(willOpen));
+  });
 });

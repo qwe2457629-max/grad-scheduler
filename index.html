@@ -157,6 +157,12 @@
     .gcal:hover { text-decoration: underline; }
 
     .export-bar { display: flex; gap: 10px; flex-wrap: wrap; margin: 16px 0; }
+    .import-help {
+      border: 1px solid #bfdbfe; border-radius: 10px; background: #eff6ff;
+      color: #1e3a8a; padding: 10px 12px; margin: -6px 0 14px; font-size: 13px;
+    }
+    .import-help ol { margin: 6px 0 0; padding-left: 20px; }
+    .import-help li { margin: 2px 0; }
     .toolbar { display: flex; gap: 10px; margin-top: 12px; }
     footer { max-width: 1000px; margin: 0 auto; padding: 0 20px 30px; color: var(--muted); font-size: 12px; }
 
@@ -245,7 +251,17 @@
       <div id="result-deadlines" class="deadlines"></div>
       <div class="export-bar">
         <button class="btn" id="dl-ics">⬇️ 下載 .ics（匯入 Google 日曆）</button>
-        <button class="btn ghost" id="how-import">如何匯入？</button>
+        <button class="btn ghost" id="how-import" aria-expanded="false" aria-controls="import-help">如何匯入？</button>
+      </div>
+      <div id="import-help" class="import-help hidden-view">
+        匯入 Google 日曆步驟：
+        <ol>
+          <li>點「下載 .ics」取得檔案。</li>
+          <li>打開 Google 日曆電腦版。</li>
+          <li>右上齒輪 → 設定 → 匯入與匯出。</li>
+          <li>選擇剛下載的 .ics 檔 → 匯入。</li>
+        </ol>
+        也可以在下方完整日程中點「＋Google」單筆加入。
       </div>
       <div id="calendar" class="cal"></div>
       <div id="evlist" class="ev-list"></div>
