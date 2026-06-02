@@ -1,5 +1,5 @@
 /* 研究所推甄 甄試時間衝突檢查 — data（自動產生 by build.py）
- *  學年度 115｜共 771 系所。改 config.py 後重跑 build.py 更新。 */
+ *  學年度 115｜共 766 系所。改 config.py 後重跑 build.py 更新。 */
 
 const PROGRAMS =
 [
@@ -11058,115 +11058,115 @@ const PROGRAMS =
   {
     "id": "ccu-0",
     "school": "中正大學",
-    "dept": "中國文學系",
+    "dept": "中國文學系碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-1",
     "school": "中正大學",
-    "dept": "外國語文學系",
+    "dept": "外國語文學系碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-2",
     "school": "中正大學",
-    "dept": "外國語文學系英語教學",
+    "dept": "外國語文學系英語教學碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-3",
     "school": "中正大學",
-    "dept": "語言學研究所語言學組",
+    "dept": "歷史學系碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-4",
     "school": "中正大學",
-    "dept": "語言學研究所華語教學",
+    "dept": "哲學系碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-5",
     "school": "中正大學",
-    "dept": "台灣文學與創意應用研究所",
+    "dept": "語言學研究所華語教學研究組碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-6",
     "school": "中正大學",
-    "dept": "數學系應用數學",
+    "dept": "數學系碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
@@ -11175,8 +11175,8 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
+        "type": "複試",
+        "note": "簡章未明列複試日期，請見系所公告",
         "tentative": true
       }
     ]
@@ -11184,25 +11184,25 @@ const PROGRAMS =
   {
     "id": "ccu-7",
     "school": "中正大學",
-    "dept": "數學系統計科學",
+    "dept": "數學系統計科學碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-8",
     "school": "中正大學",
-    "dept": "地球與環境科學系地震學",
+    "dept": "地球與環境科學系地震學碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
@@ -11211,8 +11211,8 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
+        "type": "複試",
+        "note": "簡章未明列複試日期，請見系所公告",
         "tentative": true
       }
     ]
@@ -11220,7 +11220,7 @@ const PROGRAMS =
   {
     "id": "ccu-9",
     "school": "中正大學",
-    "dept": "地球與環境科學系",
+    "dept": "地球與環境科學系碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
@@ -11229,8 +11229,8 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
+        "type": "複試",
+        "note": "簡章未明列複試日期，請見系所公告",
         "tentative": true
       }
     ]
@@ -11238,7 +11238,7 @@ const PROGRAMS =
   {
     "id": "ccu-10",
     "school": "中正大學",
-    "dept": "物理學系",
+    "dept": "物理學系碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
@@ -11247,8 +11247,8 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
+        "type": "複試",
+        "note": "簡章未明列複試日期，請見系所公告",
         "tentative": true
       }
     ]
@@ -11256,275 +11256,221 @@ const PROGRAMS =
   {
     "id": "ccu-11",
     "school": "中正大學",
-    "dept": "化學暨生物化學系",
+    "dept": "化學暨生物化學系碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-15",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-12",
     "school": "中正大學",
-    "dept": "生物醫學科學系分子生物",
+    "dept": "生物醫學科學系分子生物碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-13",
     "school": "中正大學",
-    "dept": "生物醫學科學系生物醫學",
+    "dept": "生物醫學科學系生物醫學碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-14",
     "school": "中正大學",
-    "dept": "社會福利學系",
+    "dept": "社會福利學系碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-15",
     "school": "中正大學",
-    "dept": "心理學系",
+    "dept": "心理學系碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-16",
     "school": "中正大學",
-    "dept": "心理學系臨床心理學",
+    "dept": "心理學系臨床心理學碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-17",
     "school": "中正大學",
-    "dept": "政治學系",
+    "dept": "勞工關係學系碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-18",
     "school": "中正大學",
-    "dept": "傳播學系電訊傳播",
+    "dept": "政治學系碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-19",
     "school": "中正大學",
-    "dept": "戰略暨國際事務研究所",
+    "dept": "傳播學系電訊傳播碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-20",
     "school": "中正大學",
-    "dept": "資訊工程學系",
+    "dept": "資訊工程學系碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-21",
     "school": "中正大學",
-    "dept": "電機工程學系",
+    "dept": "機械工程學系光機電整合工程碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-22",
     "school": "中正大學",
-    "dept": "機械工程學系",
+    "dept": "化學工程學系碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-23",
-    "school": "中正大學",
-    "dept": "機械工程學系光機電整合工程",
-    "group": "",
-    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ccu-24",
-    "school": "中正大學",
-    "dept": "化學工程學系",
-    "group": "",
-    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ccu-25",
-    "school": "中正大學",
-    "dept": "通訊工程學系",
-    "group": "",
-    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ccu-26",
     "school": "中正大學",
     "dept": "前瞻工程全英語碩士學位學程",
     "group": "",
@@ -11532,125 +11478,107 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-13",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ccu-24",
+    "school": "中正大學",
+    "dept": "經濟學系國際經濟學碩士班",
+    "group": "",
+    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-14",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ccu-25",
+    "school": "中正大學",
+    "dept": "財務金融學系碩士班",
+    "group": "",
+    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-14",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ccu-26",
+    "school": "中正大學",
+    "dept": "企業管理學系碩士班",
+    "group": "",
+    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-14",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-27",
     "school": "中正大學",
-    "dept": "經濟學系國際經濟學",
+    "dept": "資訊管理學系碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-28",
     "school": "中正大學",
-    "dept": "財務金融學系",
+    "dept": "資訊管理學系醫療資訊管理碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-29",
-    "school": "中正大學",
-    "dept": "企業管理學系",
-    "group": "",
-    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ccu-30",
-    "school": "中正大學",
-    "dept": "資訊科技學系",
-    "group": "",
-    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ccu-31",
-    "school": "中正大學",
-    "dept": "資訊管理學系",
-    "group": "",
-    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ccu-32",
-    "school": "中正大學",
-    "dept": "資訊管理學系醫療資訊管理",
-    "group": "",
-    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ccu-33",
     "school": "中正大學",
     "dept": "國際財務金融管理碩士學位學程",
     "group": "",
@@ -11658,17 +11586,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-13",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ccu-34",
+    "id": "ccu-30",
     "school": "中正大學",
     "dept": "金融科技碩士學位學程",
     "group": "",
@@ -11676,55 +11604,127 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-16",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ccu-31",
+    "school": "中正大學",
+    "dept": "成人及繼續教育學系碩士班",
+    "group": "",
+    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-14",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ccu-32",
+    "school": "中正大學",
+    "dept": "成人及繼續教育學系高齡者教育碩士班",
+    "group": "",
+    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-14",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ccu-33",
+    "school": "中正大學",
+    "dept": "教育學研究所教育學碩士班",
+    "group": "",
+    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-14",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ccu-34",
+    "school": "中正大學",
+    "dept": "教育學研究所課程與教學碩士班",
+    "group": "",
+    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-14",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-35",
     "school": "中正大學",
-    "dept": "法律學系",
+    "dept": "犯罪防治學系碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-36",
     "school": "中正大學",
-    "dept": "財經法律學系",
+    "dept": "運動競技學系運動與休閒教育碩士班",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ccu-37",
     "school": "中正大學",
-    "dept": "成人及繼續教育學系",
+    "dept": "教育領導與管理發展國際碩士學位學程",
     "group": "",
     "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
     "reg": null,
@@ -11733,98 +11733,8 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ccu-38",
-    "school": "中正大學",
-    "dept": "成人及繼續教育學系高齡者教育",
-    "group": "",
-    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ccu-39",
-    "school": "中正大學",
-    "dept": "學研究所教育學",
-    "group": "",
-    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ccu-40",
-    "school": "中正大學",
-    "dept": "教育學研究所課程與教學",
-    "group": "",
-    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ccu-41",
-    "school": "中正大學",
-    "dept": "犯罪防治學系",
-    "group": "",
-    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ccu-42",
-    "school": "中正大學",
-    "dept": "運動競技學系運動與休閒教育",
-    "group": "",
-    "url": "https://exams.ccu.edu.tw/p/403-1032-2830.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期請見系所公告（校方系統需登入）",
+        "type": "複試",
+        "note": "簡章未明列複試日期，請見系所公告",
         "tentative": true
       }
     ]
