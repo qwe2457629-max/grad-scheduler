@@ -1,8 +1,7 @@
 /* ============================================================
  *  研究所推甄 時間衝突檢查 — 資料檔（115學年度真實資料・9校）
- *  有甄試日期：成大86/陽明交大(120,含書面審查)/中興45/政大73/中山74
- *  僅系所清單(日期待公告)：台大129/清華98/中央43/中正43
- *  解析器在 scraper/，來源與狀態見 SOURCES.md。正式上線更新116。
+ *  台大214/陽明交大120/成大86/清華(80)/中山74/政大73/中興45/中正43/中央43
+ *  解析器在 scraper/，來源見 SOURCES.md。正式上線更新116。
  * ============================================================ */
 
 const PROGRAMS =
@@ -8026,12 +8025,12 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-04",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
@@ -8044,12 +8043,12 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
@@ -8062,12 +8061,12 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-06",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
@@ -8075,22 +8074,40 @@ const PROGRAMS =
     "id": "ntu-3",
     "school": "臺灣大學",
     "dept": "哲學系",
-    "group": "",
+    "group": "甲組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-03",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ntu-4",
+    "school": "臺灣大學",
+    "dept": "哲學系",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-03",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-5",
     "school": "臺灣大學",
     "dept": "人類學系",
     "group": "",
@@ -8098,35 +8115,89 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-5",
-    "school": "臺灣大學",
-    "dept": "圖書資訊學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ntu-6",
+    "school": "臺灣大學",
+    "dept": "圖書資訊學系",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-7",
+    "school": "臺灣大學",
+    "dept": "圖書資訊學系",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-8",
+    "school": "臺灣大學",
+    "dept": "圖書資訊學系",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-9",
+    "school": "臺灣大學",
+    "dept": "圖書資訊學系",
+    "group": "丁組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-10",
     "school": "臺灣大學",
     "dept": "日本語文學系",
     "group": "",
@@ -8134,17 +8205,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-29",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-7",
+    "id": "ntu-11",
     "school": "臺灣大學",
     "dept": "戲劇學系",
     "group": "",
@@ -8152,17 +8223,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-08",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-8",
+    "id": "ntu-12",
     "school": "臺灣大學",
     "dept": "藝術史研究所",
     "group": "",
@@ -8170,17 +8241,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-9",
+    "id": "ntu-13",
     "school": "臺灣大學",
     "dept": "語言學研究所",
     "group": "",
@@ -8188,17 +8259,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-03",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-10",
+    "id": "ntu-14",
     "school": "臺灣大學",
     "dept": "音樂學研究所",
     "group": "",
@@ -8206,17 +8277,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-11",
+    "id": "ntu-15",
     "school": "臺灣大學",
     "dept": "臺灣文學研究所",
     "group": "",
@@ -8224,17 +8295,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-01",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-12",
+    "id": "ntu-16",
     "school": "臺灣大學",
     "dept": "華語教學碩士學位學程",
     "group": "",
@@ -8242,17 +8313,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-03",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-13",
+    "id": "ntu-17",
     "school": "臺灣大學",
     "dept": "數學系",
     "group": "",
@@ -8260,17 +8331,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-31",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-14",
+    "id": "ntu-18",
     "school": "臺灣大學",
     "dept": "物理學系",
     "group": "",
@@ -8278,35 +8349,53 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-08",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-15",
+    "id": "ntu-19",
     "school": "臺灣大學",
     "dept": "化學系",
-    "group": "",
+    "group": "化學組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-01",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-16",
+    "id": "ntu-20",
+    "school": "臺灣大學",
+    "dept": "化學系",
+    "group": "化學生物學組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-01",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-21",
     "school": "臺灣大學",
     "dept": "地質科學系",
     "group": "",
@@ -8314,35 +8403,53 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-30",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-17",
+    "id": "ntu-22",
     "school": "臺灣大學",
     "dept": "心理學系",
-    "group": "",
+    "group": "一般心理學組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-08",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-18",
+    "id": "ntu-23",
+    "school": "臺灣大學",
+    "dept": "心理學系",
+    "group": "臨床心理學組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-24",
     "school": "臺灣大學",
     "dept": "地理環境資源學系",
     "group": "",
@@ -8350,218 +8457,110 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-01",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-19",
-    "school": "臺灣大學",
-    "dept": "大氣科學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-20",
-    "school": "臺灣大學",
-    "dept": "海洋研究所",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-21",
-    "school": "臺灣大學",
-    "dept": "天文物理研究所",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-22",
-    "school": "臺灣大學",
-    "dept": "應用物理學研究所",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-23",
-    "school": "臺灣大學",
-    "dept": "應用數學科學研究所",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-24",
-    "school": "臺灣大學",
-    "dept": "氣候變遷與永續發展國際碩士學位學程",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ntu-25",
     "school": "臺灣大學",
-    "dept": "統計與數據科學研究所",
-    "group": "",
+    "dept": "大氣科學系",
+    "group": "甲組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-08",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ntu-26",
     "school": "臺灣大學",
-    "dept": "政治學系",
-    "group": "",
+    "dept": "大氣科學系",
+    "group": "乙組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-08",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ntu-27",
     "school": "臺灣大學",
-    "dept": "經濟學系",
-    "group": "",
+    "dept": "海洋研究所",
+    "group": "海洋物理組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-03",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ntu-28",
     "school": "臺灣大學",
-    "dept": "社會學系",
-    "group": "",
+    "dept": "海洋研究所",
+    "group": "海洋地質及地球物理組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-31",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ntu-29",
     "school": "臺灣大學",
-    "dept": "社會工作學系",
-    "group": "",
+    "dept": "海洋研究所",
+    "group": "海洋化學組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-31",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ntu-30",
     "school": "臺灣大學",
-    "dept": "國家發展研究所",
-    "group": "",
+    "dept": "海洋研究所",
+    "group": "海洋生物及漁業組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
@@ -8570,7 +8569,7 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
@@ -8578,23 +8577,257 @@ const PROGRAMS =
   {
     "id": "ntu-31",
     "school": "臺灣大學",
+    "dept": "天文物理研究所",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-08",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-32",
+    "school": "臺灣大學",
+    "dept": "應用物理學研究所",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-08",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-33",
+    "school": "臺灣大學",
+    "dept": "應用數學科學研究所",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-34",
+    "school": "臺灣大學",
+    "dept": "氣候變遷與永續發展國際碩士學位學程",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-01",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-35",
+    "school": "臺灣大學",
+    "dept": "統計與數據科學研究所",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-30",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-36",
+    "school": "臺灣大學",
+    "dept": "政治學系",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-04",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-37",
+    "school": "臺灣大學",
+    "dept": "政治學系",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-04",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-38",
+    "school": "臺灣大學",
+    "dept": "經濟學系",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-01",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-39",
+    "school": "臺灣大學",
+    "dept": "社會學系",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-06",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-40",
+    "school": "臺灣大學",
+    "dept": "社會工作學系",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-41",
+    "school": "臺灣大學",
+    "dept": "社會工作學系",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-42",
+    "school": "臺灣大學",
+    "dept": "國家發展研究所",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-05",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-43",
+    "school": "臺灣大學",
+    "dept": "國家發展研究所",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-05",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-44",
+    "school": "臺灣大學",
     "dept": "新聞研究所",
     "group": "",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-32",
+    "id": "ntu-45",
     "school": "臺灣大學",
     "dept": "公共事務研究所",
     "group": "",
@@ -8602,17 +8835,107 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-28",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-33",
+    "id": "ntu-46",
+    "school": "臺灣大學",
+    "dept": "臨床牙醫學研究所",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-05",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-47",
+    "school": "臺灣大學",
+    "dept": "臨床牙醫學研究所",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-05",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-48",
+    "school": "臺灣大學",
+    "dept": "臨床牙醫學研究所",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-05",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-49",
+    "school": "臺灣大學",
+    "dept": "臨床牙醫學研究所",
+    "group": "丁組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-05",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-50",
+    "school": "臺灣大學",
+    "dept": "臨床牙醫學研究所",
+    "group": "戊組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-05",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-51",
     "school": "臺灣大學",
     "dept": "臨床牙醫學研究所",
     "group": "",
@@ -8620,35 +8943,71 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-05",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-34",
+    "id": "ntu-52",
     "school": "臺灣大學",
     "dept": "藥學系",
-    "group": "",
+    "group": "甲組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-31",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-35",
+    "id": "ntu-53",
+    "school": "臺灣大學",
+    "dept": "藥學系",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-54",
+    "school": "臺灣大學",
+    "dept": "藥學系",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-55",
     "school": "臺灣大學",
     "dept": "醫學檢驗暨生物技術學系",
     "group": "",
@@ -8656,17 +9015,107 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-05",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-36",
+    "id": "ntu-56",
+    "school": "臺灣大學",
+    "dept": "護理學系",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-10",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-57",
+    "school": "臺灣大學",
+    "dept": "護理學系",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-10",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-58",
+    "school": "臺灣大學",
+    "dept": "護理學系",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-10",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-59",
+    "school": "臺灣大學",
+    "dept": "護理學系",
+    "group": "丁組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-10",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-60",
+    "school": "臺灣大學",
+    "dept": "護理學系",
+    "group": "戊組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-10",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-61",
     "school": "臺灣大學",
     "dept": "護理學系",
     "group": "",
@@ -8674,17 +9123,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-10",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-37",
+    "id": "ntu-62",
     "school": "臺灣大學",
     "dept": "物理治療學系",
     "group": "",
@@ -8692,17 +9141,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-31",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-38",
+    "id": "ntu-63",
     "school": "臺灣大學",
     "dept": "職能治療學系",
     "group": "",
@@ -8710,17 +9159,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-31",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-39",
+    "id": "ntu-64",
     "school": "臺灣大學",
     "dept": "生理學研究所",
     "group": "",
@@ -8728,17 +9177,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-04",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-40",
+    "id": "ntu-65",
     "school": "臺灣大學",
     "dept": "生物化學暨分子生物學研究所",
     "group": "",
@@ -8746,17 +9195,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-18",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-41",
+    "id": "ntu-66",
     "school": "臺灣大學",
     "dept": "藥理學研究所",
     "group": "",
@@ -8764,17 +9213,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-42",
+    "id": "ntu-67",
     "school": "臺灣大學",
     "dept": "病理學研究所",
     "group": "",
@@ -8782,35 +9231,53 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-20",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-43",
+    "id": "ntu-68",
     "school": "臺灣大學",
     "dept": "微生物學研究所",
-    "group": "",
+    "group": "微生物及免疫學組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-23",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-44",
+    "id": "ntu-69",
+    "school": "臺灣大學",
+    "dept": "微生物學研究所",
+    "group": "熱帶醫學暨寄生蟲學組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-21",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-70",
     "school": "臺灣大學",
     "dept": "解剖學暨細胞生物學研究所",
     "group": "",
@@ -8818,17 +9285,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-45",
+    "id": "ntu-71",
     "school": "臺灣大學",
     "dept": "毒理學研究所",
     "group": "",
@@ -8836,17 +9303,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-31",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-46",
+    "id": "ntu-72",
     "school": "臺灣大學",
     "dept": "分子醫學研究所",
     "group": "",
@@ -8854,17 +9321,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-47",
+    "id": "ntu-73",
     "school": "臺灣大學",
     "dept": "免疫學研究所",
     "group": "",
@@ -8872,17 +9339,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-21",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-48",
+    "id": "ntu-74",
     "school": "臺灣大學",
     "dept": "口腔生物科學研究所",
     "group": "",
@@ -8890,17 +9357,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-04",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-49",
+    "id": "ntu-75",
     "school": "臺灣大學",
     "dept": "臨床藥學研究所",
     "group": "",
@@ -8908,35 +9375,35 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-05",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-50",
+    "id": "ntu-76",
     "school": "臺灣大學",
-    "dept": "基因體暨蛋白體醫學研究所",
-    "group": "",
+    "dept": "法醫學研究所",
+    "group": "甲組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-22",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-51",
+    "id": "ntu-77",
     "school": "臺灣大學",
     "dept": "腦與心智科學研究所",
     "group": "",
@@ -8944,17 +9411,35 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-29",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-52",
+    "id": "ntu-78",
+    "school": "臺灣大學",
+    "dept": "基因體暨蛋白體醫學研究所",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-06",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-79",
     "school": "臺灣大學",
     "dept": "醫學教育暨生醫倫理研究所",
     "group": "",
@@ -8962,35 +9447,35 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-08",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-53",
+    "id": "ntu-80",
     "school": "臺灣大學",
-    "dept": "醫學器材與醫學影像研究所",
+    "dept": "醫療器材與醫學影像研究所",
     "group": "",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-22",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-54",
+    "id": "ntu-81",
     "school": "臺灣大學",
     "dept": "國際三校農業生技與健康醫療碩士學位學程",
     "group": "",
@@ -8998,17 +9483,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-05",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-55",
+    "id": "ntu-82",
     "school": "臺灣大學",
     "dept": "醫藥法規科學碩士學位學程",
     "group": "",
@@ -9016,17 +9501,125 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-56",
+    "id": "ntu-83",
+    "school": "臺灣大學",
+    "dept": "土木工程學系",
+    "group": "大地工程組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-27",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-84",
+    "school": "臺灣大學",
+    "dept": "土木工程學系",
+    "group": "測量及空間資訊組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-23",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-85",
+    "school": "臺灣大學",
+    "dept": "土木工程學系",
+    "group": "結構工程組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-30",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-86",
+    "school": "臺灣大學",
+    "dept": "土木工程學系",
+    "group": "水利工程組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-24",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-87",
+    "school": "臺灣大學",
+    "dept": "土木工程學系",
+    "group": "交通工程組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-27",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-88",
+    "school": "臺灣大學",
+    "dept": "土木工程學系",
+    "group": "電腦輔助工程組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-27",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-89",
     "school": "臺灣大學",
     "dept": "土木工程學系",
     "group": "",
@@ -9034,17 +9627,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-24",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-57",
+    "id": "ntu-90",
     "school": "臺灣大學",
     "dept": "機械工程學系",
     "group": "",
@@ -9056,601 +9649,7 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-58",
-    "school": "臺灣大學",
-    "dept": "化學工程學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-59",
-    "school": "臺灣大學",
-    "dept": "工程科學及海洋工程學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-60",
-    "school": "臺灣大學",
-    "dept": "材料科學與工程學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-61",
-    "school": "臺灣大學",
-    "dept": "材料系國際應用材料班",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-62",
-    "school": "臺灣大學",
-    "dept": "環境工程學研究所",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-63",
-    "school": "臺灣大學",
-    "dept": "應用力學研究所",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-64",
-    "school": "臺灣大學",
-    "dept": "建築與城鄉研究所",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-65",
-    "school": "臺灣大學",
-    "dept": "工業工程學研究所",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-66",
-    "school": "臺灣大學",
-    "dept": "醫學工程學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-67",
-    "school": "臺灣大學",
-    "dept": "高分子科學與工程學研究所",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-68",
-    "school": "臺灣大學",
-    "dept": "農藝學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-69",
-    "school": "臺灣大學",
-    "dept": "生物環境系統工程學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-70",
-    "school": "臺灣大學",
-    "dept": "農業化學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-71",
-    "school": "臺灣大學",
-    "dept": "森林環境暨資源學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-72",
-    "school": "臺灣大學",
-    "dept": "動物科學技術學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-73",
-    "school": "臺灣大學",
-    "dept": "農業經濟學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-74",
-    "school": "臺灣大學",
-    "dept": "園藝暨景觀學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-75",
-    "school": "臺灣大學",
-    "dept": "獸醫學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-76",
-    "school": "臺灣大學",
-    "dept": "生物產業傳播暨發展學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-77",
-    "school": "臺灣大學",
-    "dept": "生物機電工程學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-78",
-    "school": "臺灣大學",
-    "dept": "昆蟲學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-79",
-    "school": "臺灣大學",
-    "dept": "植物病理與微生物學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-80",
-    "school": "臺灣大學",
-    "dept": "食品科技研究所",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-81",
-    "school": "臺灣大學",
-    "dept": "生物科技研究所",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-82",
-    "school": "臺灣大學",
-    "dept": "臨床動物醫學研究所",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-83",
-    "school": "臺灣大學",
-    "dept": "植物醫學碩士學位學程",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-84",
-    "school": "臺灣大學",
-    "dept": "分子暨比較病理生物學研究所",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-85",
-    "school": "臺灣大學",
-    "dept": "商學研究所",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-86",
-    "school": "臺灣大學",
-    "dept": "會計學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-87",
-    "school": "臺灣大學",
-    "dept": "財務金融學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-88",
-    "school": "臺灣大學",
-    "dept": "國際企業學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-89",
-    "school": "臺灣大學",
-    "dept": "資訊管理學系",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-90",
-    "school": "臺灣大學",
-    "dept": "環境與職業健康科學研究所",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
@@ -9658,8 +9657,8 @@ const PROGRAMS =
   {
     "id": "ntu-91",
     "school": "臺灣大學",
-    "dept": "健康政策與管理研究所",
-    "group": "",
+    "dept": "機械工程學系",
+    "group": "流體力學組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
@@ -9668,7 +9667,7 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
@@ -9676,26 +9675,26 @@ const PROGRAMS =
   {
     "id": "ntu-92",
     "school": "臺灣大學",
-    "dept": "健康行為與社區科學研究所",
+    "dept": "化學工程學系",
     "group": "",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-24",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ntu-93",
     "school": "臺灣大學",
-    "dept": "流行病學與預防醫學研究所",
-    "group": "",
+    "dept": "工程科學及海洋工程學系",
+    "group": "甲組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
@@ -9704,7 +9703,7 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
@@ -9712,8 +9711,8 @@ const PROGRAMS =
   {
     "id": "ntu-94",
     "school": "臺灣大學",
-    "dept": "食品安全與健康研究所",
-    "group": "",
+    "dept": "工程科學及海洋工程學系",
+    "group": "乙組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
@@ -9722,7 +9721,7 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
@@ -9730,8 +9729,8 @@ const PROGRAMS =
   {
     "id": "ntu-95",
     "school": "臺灣大學",
-    "dept": "健康數據拓析統計研究所",
-    "group": "",
+    "dept": "工程科學及海洋工程學系",
+    "group": "丙組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
@@ -9740,7 +9739,7 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
@@ -9748,8 +9747,8 @@ const PROGRAMS =
   {
     "id": "ntu-96",
     "school": "臺灣大學",
-    "dept": "全球衛生碩士學位學程",
-    "group": "",
+    "dept": "工程科學及海洋工程學系",
+    "group": "丁組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
@@ -9758,7 +9757,7 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
@@ -9766,25 +9765,421 @@ const PROGRAMS =
   {
     "id": "ntu-97",
     "school": "臺灣大學",
-    "dept": "電機工程學系一般組",
-    "group": "",
+    "dept": "材料科學與工程學系",
+    "group": "甲組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-27",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "ntu-98",
     "school": "臺灣大學",
-    "dept": "電機工程學系資訊安全(班)組",
+    "dept": "材料科學與工程學系",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-27",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-99",
+    "school": "臺灣大學",
+    "dept": "材料科學與工程學系",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-27",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-100",
+    "school": "臺灣大學",
+    "dept": "材料科學與工程學系",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-27",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-101",
+    "school": "臺灣大學",
+    "dept": "環境工程學研究所",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-01",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-102",
+    "school": "臺灣大學",
+    "dept": "應用力學研究所",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-103",
+    "school": "臺灣大學",
+    "dept": "應用力學研究所",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-104",
+    "school": "臺灣大學",
+    "dept": "應用力學研究所",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-105",
+    "school": "臺灣大學",
+    "dept": "建築與城鄉研究所",
+    "group": "空間規劃設計專業組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-29",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-106",
+    "school": "臺灣大學",
+    "dept": "建築與城鄉研究所",
+    "group": "其它專業組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-29",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-107",
+    "school": "臺灣大學",
+    "dept": "建築與城鄉研究所",
+    "group": "原住民組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-29",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-108",
+    "school": "臺灣大學",
+    "dept": "建築與城鄉研究所",
+    "group": "新住民組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-29",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-109",
+    "school": "臺灣大學",
+    "dept": "工業工程學研究所",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-30",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-110",
+    "school": "臺灣大學",
+    "dept": "工業工程學研究所",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-30",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-111",
+    "school": "臺灣大學",
+    "dept": "工業工程學研究所",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-30",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-112",
+    "school": "臺灣大學",
+    "dept": "醫學工程學系",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-28",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-113",
+    "school": "臺灣大學",
+    "dept": "醫學工程學系",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-28",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-114",
+    "school": "臺灣大學",
+    "dept": "醫學工程學系",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-28",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-115",
+    "school": "臺灣大學",
+    "dept": "醫學工程學系",
+    "group": "丁組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-28",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-116",
+    "school": "臺灣大學",
+    "dept": "高分子科學與工程學研究所",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-23",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-117",
+    "school": "臺灣大學",
+    "dept": "農藝學系",
+    "group": "作物科學甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-18",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-118",
+    "school": "臺灣大學",
+    "dept": "農藝學系",
+    "group": "作物科學乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-18",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-119",
+    "school": "臺灣大學",
+    "dept": "農藝學系",
+    "group": "生物統計學組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-18",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-120",
+    "school": "臺灣大學",
+    "dept": "生物環境系",
     "group": "",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
@@ -9794,13 +10189,877 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
   },
   {
-    "id": "ntu-99",
+    "id": "ntu-121",
+    "school": "臺灣大學",
+    "dept": "農業化學系",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-18",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-122",
+    "school": "臺灣大學",
+    "dept": "農業化學系",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-18",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-123",
+    "school": "臺灣大學",
+    "dept": "農業化學系",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-18",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-124",
+    "school": "臺灣大學",
+    "dept": "森林環境暨資源學系",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-01",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-125",
+    "school": "臺灣大學",
+    "dept": "動物科學技術學系",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-01",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-126",
+    "school": "臺灣大學",
+    "dept": "農業經濟學系",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-127",
+    "school": "臺灣大學",
+    "dept": "園藝暨景觀學系",
+    "group": "園藝作物組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-128",
+    "school": "臺灣大學",
+    "dept": "園藝暨景觀學系",
+    "group": "園產品處理及利用組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-129",
+    "school": "臺灣大學",
+    "dept": "園藝暨景觀學系",
+    "group": "景觀暨休憩組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-130",
+    "school": "臺灣大學",
+    "dept": "獸醫學系",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-20",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-131",
+    "school": "臺灣大學",
+    "dept": "獸醫學系",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-21",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-132",
+    "school": "臺灣大學",
+    "dept": "生物產業傳播暨發展學系",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-03",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-133",
+    "school": "臺灣大學",
+    "dept": "生物機電工程學系",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-04",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-134",
+    "school": "臺灣大學",
+    "dept": "生物機電工程學系",
+    "group": "機械系統組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-04",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-135",
+    "school": "臺灣大學",
+    "dept": "生物機電工程學系",
+    "group": "生物程序組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-04",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-136",
+    "school": "臺灣大學",
+    "dept": "昆蟲學系",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-30",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-137",
+    "school": "臺灣大學",
+    "dept": "植物病理與微生物學系",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-01",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-138",
+    "school": "臺灣大學",
+    "dept": "食品科技研究所",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-01",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-139",
+    "school": "臺灣大學",
+    "dept": "食品科技研究所",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-01",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-140",
+    "school": "臺灣大學",
+    "dept": "食品科技研究所",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-01",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-141",
+    "school": "臺灣大學",
+    "dept": "食品科技研究所",
+    "group": "丁組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-01",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-142",
+    "school": "臺灣大學",
+    "dept": "食品科技研究所",
+    "group": "戊組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-01",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-143",
+    "school": "臺灣大學",
+    "dept": "生物科技研究所",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-01",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-144",
+    "school": "臺灣大學",
+    "dept": "臨床動物醫學研究所",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-21",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-145",
+    "school": "臺灣大學",
+    "dept": "臨床動物醫學研究所",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-22",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-146",
+    "school": "臺灣大學",
+    "dept": "植物醫學碩士學位學程",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-26",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-147",
+    "school": "臺灣大學",
+    "dept": "分子暨比較病理生物學研究所",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-22",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-148",
+    "school": "臺灣大學",
+    "dept": "商學研究所",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-149",
+    "school": "臺灣大學",
+    "dept": "會計學系",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-04",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-150",
+    "school": "臺灣大學",
+    "dept": "會計學系",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-04",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-151",
+    "school": "臺灣大學",
+    "dept": "財務金融學系",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-152",
+    "school": "臺灣大學",
+    "dept": "財務金融學系",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-153",
+    "school": "臺灣大學",
+    "dept": "財務金融學系",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-154",
+    "school": "臺灣大學",
+    "dept": "國際企業學系",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-155",
+    "school": "臺灣大學",
+    "dept": "資訊管理學系",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-156",
+    "school": "臺灣大學",
+    "dept": "健康政策與管理研究所",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-157",
+    "school": "臺灣大學",
+    "dept": "健康行為與社區科學研究所",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-158",
+    "school": "臺灣大學",
+    "dept": "環境與職業健康科學研究所",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-159",
+    "school": "臺灣大學",
+    "dept": "流行病學與預防醫學研究所",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-04",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-160",
+    "school": "臺灣大學",
+    "dept": "流行病學與預防醫學研究所",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-29",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-161",
+    "school": "臺灣大學",
+    "dept": "健康數據拓析統計研究所",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-162",
+    "school": "臺灣大學",
+    "dept": "公共衛生碩士學位學程",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-163",
+    "school": "臺灣大學",
+    "dept": "食品安全與健康研究所",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-164",
+    "school": "臺灣大學",
+    "dept": "全球衛生碩士學位學程",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-28",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-165",
+    "school": "臺灣大學",
+    "dept": "電機工程學系",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-166",
+    "school": "臺灣大學",
+    "dept": "電機工程學系",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-167",
+    "school": "臺灣大學",
+    "dept": "電機工程學系",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-168",
+    "school": "臺灣大學",
+    "dept": "電機工程學系",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-169",
     "school": "臺灣大學",
     "dept": "資訊工程學系",
     "group": "",
@@ -9812,31 +11071,13 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
   },
   {
-    "id": "ntu-100",
-    "school": "臺灣大學",
-    "dept": "資訊工程學系人工智慧碩士班",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-101",
+    "id": "ntu-170",
     "school": "臺灣大學",
     "dept": "光電工程學研究所",
     "group": "",
@@ -9848,16 +11089,16 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
   },
   {
-    "id": "ntu-102",
+    "id": "ntu-171",
     "school": "臺灣大學",
     "dept": "電信工程學研究所",
-    "group": "",
+    "group": "甲組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
@@ -9866,16 +11107,52 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
   },
   {
-    "id": "ntu-103",
+    "id": "ntu-172",
+    "school": "臺灣大學",
+    "dept": "電信工程學研究所",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-173",
+    "school": "臺灣大學",
+    "dept": "電信工程學研究所",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-06",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-174",
     "school": "臺灣大學",
     "dept": "電子工程學研究所",
-    "group": "",
+    "group": "甲組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
@@ -9884,13 +11161,67 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
   },
   {
-    "id": "ntu-104",
+    "id": "ntu-175",
+    "school": "臺灣大學",
+    "dept": "電子工程學研究所",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-176",
+    "school": "臺灣大學",
+    "dept": "電子工程學研究所",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-177",
+    "school": "臺灣大學",
+    "dept": "電子工程學研究所",
+    "group": "丁組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-178",
     "school": "臺灣大學",
     "dept": "資訊網路與多媒體研究所",
     "group": "",
@@ -9902,16 +11233,16 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
   },
   {
-    "id": "ntu-105",
+    "id": "ntu-179",
     "school": "臺灣大學",
     "dept": "生醫電子與資訊學研究所",
-    "group": "",
+    "group": "甲組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
@@ -9920,16 +11251,16 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
   },
   {
-    "id": "ntu-106",
+    "id": "ntu-180",
     "school": "臺灣大學",
-    "dept": "資料科學碩士/博士學位學程",
-    "group": "",
+    "dept": "生醫電子與資訊學研究所",
+    "group": "乙組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
@@ -9938,13 +11269,139 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
   },
   {
-    "id": "ntu-107",
+    "id": "ntu-181",
+    "school": "臺灣大學",
+    "dept": "生醫電子與資訊學研究所",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-182",
+    "school": "臺灣大學",
+    "dept": "資料科學碩士學位學程",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-183",
+    "school": "臺灣大學",
+    "dept": "法律學系",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-184",
+    "school": "臺灣大學",
+    "dept": "法律學系",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-185",
+    "school": "臺灣大學",
+    "dept": "法律學系",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-186",
+    "school": "臺灣大學",
+    "dept": "法律學系",
+    "group": "丁組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-187",
+    "school": "臺灣大學",
+    "dept": "法律學系",
+    "group": "戊組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-188",
     "school": "臺灣大學",
     "dept": "法律學系",
     "group": "",
@@ -9956,13 +11413,13 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
   },
   {
-    "id": "ntu-108",
+    "id": "ntu-189",
     "school": "臺灣大學",
     "dept": "生命科學系",
     "group": "",
@@ -9970,17 +11427,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-01",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-109",
+    "id": "ntu-190",
     "school": "臺灣大學",
     "dept": "植物科學研究所",
     "group": "",
@@ -9988,17 +11445,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-01",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-110",
+    "id": "ntu-191",
     "school": "臺灣大學",
     "dept": "分子與細胞生物學研究所",
     "group": "",
@@ -10006,17 +11463,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-24",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-111",
+    "id": "ntu-192",
     "school": "臺灣大學",
     "dept": "生態學與演化生物學研究所",
     "group": "",
@@ -10024,17 +11481,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-31",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-112",
+    "id": "ntu-193",
     "school": "臺灣大學",
     "dept": "漁業科學研究所",
     "group": "",
@@ -10042,17 +11499,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-01",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-113",
+    "id": "ntu-194",
     "school": "臺灣大學",
     "dept": "生化科學研究所",
     "group": "",
@@ -10060,17 +11517,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-03",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-114",
+    "id": "ntu-195",
     "school": "臺灣大學",
     "dept": "生化科技學系",
     "group": "",
@@ -10078,35 +11535,35 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-01",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-115",
+    "id": "ntu-196",
     "school": "臺灣大學",
-    "dept": "基因體與系統生物學學位學程",
+    "dept": "基因體與系",
     "group": "",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-23",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-116",
+    "id": "ntu-197",
     "school": "臺灣大學",
     "dept": "政治經濟碩士學位學程",
     "group": "",
@@ -10114,17 +11571,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-08",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-117",
+    "id": "ntu-198",
     "school": "臺灣大學",
     "dept": "財金碩士學位學程",
     "group": "",
@@ -10132,17 +11589,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-08",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-118",
+    "id": "ntu-199",
     "school": "臺灣大學",
     "dept": "領導與管理碩士學位學程",
     "group": "",
@@ -10150,17 +11607,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-08",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-119",
+    "id": "ntu-200",
     "school": "臺灣大學",
     "dept": "統計碩士學位學程",
     "group": "",
@@ -10168,35 +11625,53 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-22",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-120",
+    "id": "ntu-201",
     "school": "臺灣大學",
     "dept": "運動設施與健康管理碩士學位學程",
-    "group": "",
+    "group": "運動管理組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-10-31",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-121",
+    "id": "ntu-202",
+    "school": "臺灣大學",
+    "dept": "運動設施與健康管理碩士學位學程",
+    "group": "健康管理組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-31",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-203",
     "school": "臺灣大學",
     "dept": "全球農業科技與基因體科學碩士學位學程",
     "group": "",
@@ -10204,53 +11679,17 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-01",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-122",
-    "school": "臺灣大學",
-    "dept": "防災減害與韌性碩士學位學程",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-123",
-    "school": "臺灣大學",
-    "dept": "智慧醫療與健康資訊碩士學位學程",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-124",
+    "id": "ntu-204",
     "school": "臺灣大學",
     "dept": "生物多樣性國際碩士學位學程",
     "group": "",
@@ -10258,20 +11697,56 @@ const PROGRAMS =
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-01",
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
-    "id": "ntu-125",
+    "id": "ntu-205",
     "school": "臺灣大學",
-    "dept": "元件材料與異質整合碩士學位學程",
+    "dept": "智慧醫療與健康資訊碩士學位學程",
     "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-20",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-206",
+    "school": "臺灣大學",
+    "dept": "防災減害與韌性碩士學位學程",
+    "group": "",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-10-20",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "ntu-207",
+    "school": "臺灣大學",
+    "dept": "積體電路設計與自動化碩士學位學程",
+    "group": "甲組",
     "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
     "reg": null,
     "exams": [
@@ -10280,13 +11755,85 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
   },
   {
-    "id": "ntu-126",
+    "id": "ntu-208",
+    "school": "臺灣大學",
+    "dept": "積體電路設計與自動化碩士學位學程",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-209",
+    "school": "臺灣大學",
+    "dept": "積體電路設計與自動化碩士學位學程",
+    "group": "丙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-210",
+    "school": "臺灣大學",
+    "dept": "元件材料與異質整合碩士學位學程",
+    "group": "甲組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-211",
+    "school": "臺灣大學",
+    "dept": "元件材料與異質整合碩士學位學程",
+    "group": "乙組",
+    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "口試",
+        "note": "簡章未明列口試日期，請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "ntu-212",
     "school": "臺灣大學",
     "dept": "奈米工程與科學碩士學位學程",
     "group": "",
@@ -10298,31 +11845,13 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
   },
   {
-    "id": "ntu-127",
-    "school": "臺灣大學",
-    "dept": "積體電路設計與自動化碩士學位學程",
-    "group": "",
-    "url": "https://www.aca.ntu.edu.tw/w/aca/LocalAdmissionClass_21072014105459968",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ntu-128",
+    "id": "ntu-213",
     "school": "臺灣大學",
     "dept": "精準健康碩士學位學程",
     "group": "",
@@ -10334,7 +11863,7 @@ const PROGRAMS =
         "start": "",
         "end": "",
         "type": "口試",
-        "note": "口試日期由各系所考前公告",
+        "note": "簡章未明列口試日期，請見系所公告",
         "tentative": true
       }
     ]
@@ -11116,61 +12645,61 @@ const PROGRAMS =
   {
     "id": "nthu-0",
     "school": "清華大學",
-    "dept": "數學系",
+    "dept": "半導體研究學院",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-1",
     "school": "清華大學",
-    "dept": "統計所",
-    "group": "甲組",
+    "dept": "生命科學暨醫學院",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-15",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-2",
     "school": "清華大學",
-    "dept": "統計所",
-    "group": "乙組",
+    "dept": "醫學資訊碩士學位學程",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-08",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-3",
     "school": "清華大學",
-    "dept": "計科所",
+    "dept": "分工學程",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
@@ -11179,8 +12708,8 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
         "tentative": true
       }
     ]
@@ -11188,7 +12717,7 @@ const PROGRAMS =
   {
     "id": "nthu-4",
     "school": "清華大學",
-    "dept": "物理系",
+    "dept": "跨領域學程",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
@@ -11197,122 +12726,14 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
         "tentative": true
       }
     ]
   },
   {
     "id": "nthu-5",
-    "school": "清華大學",
-    "dept": "天文所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-6",
-    "school": "清華大學",
-    "dept": "化學系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-7",
-    "school": "清華大學",
-    "dept": "半導體學院",
-    "group": "甲組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-8",
-    "school": "清華大學",
-    "dept": "半導體學院",
-    "group": "乙組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-9",
-    "school": "清華大學",
-    "dept": "半導體學院",
-    "group": "丙組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-10",
-    "school": "清華大學",
-    "dept": "半導體學院",
-    "group": "丁組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-11",
     "school": "清華大學",
     "dept": "生醫學院",
     "group": "",
@@ -11323,16 +12744,16 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
         "tentative": true
       }
     ]
   },
   {
-    "id": "nthu-12",
+    "id": "nthu-6",
     "school": "清華大學",
-    "dept": "醫資碩士學程",
+    "dept": "精準醫療學程",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
@@ -11341,8 +12762,116 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "nthu-7",
+    "school": "清華大學",
+    "dept": "原科院聯招",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "nthu-8",
+    "school": "清華大學",
+    "dept": "數學系碩士班",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-9",
+    "school": "清華大學",
+    "dept": "統計與數據科學研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-14",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-10",
+    "school": "清華大學",
+    "dept": "天文研究所",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-07",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-11",
+    "school": "清華大學",
+    "dept": "化學系碩士班",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-15",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-12",
+    "school": "清華大學",
+    "dept": "材料科學工程學系",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
         "tentative": true
       }
     ]
@@ -11350,7 +12879,25 @@ const PROGRAMS =
   {
     "id": "nthu-13",
     "school": "清華大學",
-    "dept": "材料系",
+    "dept": "化學工程學系",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-10",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-14",
+    "school": "清華大學",
+    "dept": "生物醫學工程研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
@@ -11359,26 +12906,8 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-14",
-    "school": "清華大學",
-    "dept": "化工系",
-    "group": "甲組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
         "tentative": true
       }
     ]
@@ -11386,8 +12915,8 @@ const PROGRAMS =
   {
     "id": "nthu-15",
     "school": "清華大學",
-    "dept": "化工系",
-    "group": "乙組",
+    "dept": "動力機械工程學系",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
@@ -11395,8 +12924,8 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
         "tentative": true
       }
     ]
@@ -11404,43 +12933,43 @@ const PROGRAMS =
   {
     "id": "nthu-16",
     "school": "清華大學",
-    "dept": "工學院分子學程",
+    "dept": "奈米工程與微系統研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-03",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-17",
     "school": "清華大學",
-    "dept": "工學院跨域學程",
+    "dept": "太空工程研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-03",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-18",
     "school": "清華大學",
-    "dept": "醫工所",
+    "dept": "電機工程學系",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
@@ -11449,8 +12978,8 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
         "tentative": true
       }
     ]
@@ -11458,8 +12987,8 @@ const PROGRAMS =
   {
     "id": "nthu-19",
     "school": "清華大學",
-    "dept": "動機系",
-    "group": "甲組",
+    "dept": "光電工程研究所",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
@@ -11467,8 +12996,8 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
         "tentative": true
       }
     ]
@@ -11476,8 +13005,8 @@ const PROGRAMS =
   {
     "id": "nthu-20",
     "school": "清華大學",
-    "dept": "動機系",
-    "group": "乙組",
+    "dept": "電子工程研究所",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
@@ -11485,8 +13014,8 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
         "tentative": true
       }
     ]
@@ -11494,8 +13023,8 @@ const PROGRAMS =
   {
     "id": "nthu-21",
     "school": "清華大學",
-    "dept": "動機系",
-    "group": "丙組",
+    "dept": "通訊工程研究所",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
@@ -11503,8 +13032,8 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
         "tentative": true
       }
     ]
@@ -11512,8 +13041,8 @@ const PROGRAMS =
   {
     "id": "nthu-22",
     "school": "清華大學",
-    "dept": "動機系",
-    "group": "丁組",
+    "dept": "資訊工程學系",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
@@ -11521,8 +13050,8 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
         "tentative": true
       }
     ]
@@ -11530,277 +13059,313 @@ const PROGRAMS =
   {
     "id": "nthu-23",
     "school": "清華大學",
-    "dept": "動機系",
-    "group": "戊組",
+    "dept": "資訊工程學系",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-24",
     "school": "清華大學",
-    "dept": "動機系己組",
+    "dept": "資訊系統與應用研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-25",
     "school": "清華大學",
-    "dept": "動機系庚組",
+    "dept": "資訊安全研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-26",
     "school": "清華大學",
-    "dept": "工工系",
-    "group": "甲組",
+    "dept": "分析與環境科學研究所",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-27",
     "school": "清華大學",
-    "dept": "工工系",
-    "group": "乙組",
+    "dept": "工程與系統科學系",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-28",
     "school": "清華大學",
-    "dept": "工工系",
-    "group": "丙組",
+    "dept": "歷史研究所",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-05",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-29",
     "school": "清華大學",
-    "dept": "工工系",
-    "group": "丁組",
+    "dept": "語言學研究所",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-30",
     "school": "清華大學",
-    "dept": "奈微所",
+    "dept": "台灣文學研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-31",
     "school": "清華大學",
-    "dept": "太空所",
+    "dept": "中國文學系",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-32",
     "school": "清華大學",
-    "dept": "電機系",
-    "group": "甲組",
+    "dept": "外國語文學系",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-05",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-33",
     "school": "清華大學",
-    "dept": "電機系",
-    "group": "乙組",
+    "dept": "哲學研究所",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-01",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-34",
     "school": "清華大學",
-    "dept": "電機系",
-    "group": "丙組",
+    "dept": "經濟學系",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-03",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-35",
     "school": "清華大學",
-    "dept": "電機系",
-    "group": "丁組",
+    "dept": "服務科學研究所",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-10",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-36",
     "school": "清華大學",
-    "dept": "光電所",
+    "dept": "計量財務金融學系",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-13",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-37",
     "school": "清華大學",
-    "dept": "電子所",
+    "dept": "科技藝術研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-38",
     "school": "清華大學",
-    "dept": "通訊所",
+    "dept": "跨院國際碩士學位學程",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-14",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-39",
+    "school": "清華大學",
+    "dept": "跨院國際碩士學位學程",
+    "group": "",
+    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-03",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nthu-40",
+    "school": "清華大學",
+    "dept": "台北政經學院",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
@@ -11809,44 +13374,8 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-39",
-    "school": "清華大學",
-    "dept": "資工系",
-    "group": "甲組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-40",
-    "school": "清華大學",
-    "dept": "資工系",
-    "group": "乙組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
         "tentative": true
       }
     ]
@@ -11854,43 +13383,43 @@ const PROGRAMS =
   {
     "id": "nthu-41",
     "school": "清華大學",
-    "dept": "資工系",
-    "group": "丙組",
+    "dept": "物理學系",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-42",
     "school": "清華大學",
-    "dept": "資應所",
+    "dept": "化學工程學系",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-43",
     "school": "清華大學",
-    "dept": "資安所",
+    "dept": "奈米工程與微系統研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
@@ -11899,8 +13428,8 @@ const PROGRAMS =
         "date": "",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
+        "type": "複試",
+        "note": "複試日期請見系所公告",
         "tentative": true
       }
     ]
@@ -11908,972 +13437,252 @@ const PROGRAMS =
   {
     "id": "nthu-44",
     "school": "清華大學",
-    "dept": "醫環系",
-    "group": "甲組",
+    "dept": "工業工程與工程管理學系",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-06",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-45",
     "school": "清華大學",
-    "dept": "醫環系",
-    "group": "乙組",
+    "dept": "生物醫學工程研究所",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-06",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-46",
     "school": "清華大學",
-    "dept": "分環所",
+    "dept": "工程與系統科學系",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-13",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-47",
     "school": "清華大學",
-    "dept": "工科系",
-    "group": "甲組",
+    "dept": "核子工程與科學研究所",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-08",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-48",
     "school": "清華大學",
-    "dept": "工科系",
-    "group": "乙組",
+    "dept": "人類學研究所",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-49",
     "school": "清華大學",
-    "dept": "工科系",
-    "group": "丙組",
+    "dept": "社會學研究所",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-05",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-50",
     "school": "清華大學",
-    "dept": "工科系",
-    "group": "丁組",
+    "dept": "中國文學系",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-51",
     "school": "清華大學",
-    "dept": "工科系己組",
+    "dept": "台灣文學研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-52",
     "school": "清華大學",
-    "dept": "核工所",
+    "dept": "哲學研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-53",
     "school": "清華大學",
-    "dept": "原科院聯招生醫奈米",
+    "dept": "經濟學系",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-07",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-54",
     "school": "清華大學",
-    "dept": "歷史所",
-    "group": "甲組",
+    "dept": "科技管理研究所",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-10",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-55",
     "school": "清華大學",
-    "dept": "歷史所",
-    "group": "乙組",
+    "dept": "計量財務金融學系",
+    "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-06",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-56",
     "school": "清華大學",
-    "dept": "語言所",
+    "dept": "教育與學習科技學系",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-06",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   },
   {
     "id": "nthu-57",
     "school": "清華大學",
-    "dept": "台文所",
+    "dept": "臺灣語言研究與教學研究所",
     "group": "",
     "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
     "reg": null,
     "exams": [
       {
-        "date": "",
+        "date": "2025-11-14",
         "start": "",
         "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-58",
-    "school": "清華大學",
-    "dept": "中文系",
-    "group": "甲組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-59",
-    "school": "清華大學",
-    "dept": "中文系",
-    "group": "乙組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-60",
-    "school": "清華大學",
-    "dept": "外語系",
-    "group": "甲組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-61",
-    "school": "清華大學",
-    "dept": "外語系",
-    "group": "乙組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-62",
-    "school": "清華大學",
-    "dept": "哲學所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-63",
-    "school": "清華大學",
-    "dept": "社會所",
-    "group": "甲組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-64",
-    "school": "清華大學",
-    "dept": "社會所",
-    "group": "乙組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-65",
-    "school": "清華大學",
-    "dept": "人類所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-66",
-    "school": "清華大學",
-    "dept": "亞際文研",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-67",
-    "school": "清華大學",
-    "dept": "華文所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-68",
-    "school": "清華大學",
-    "dept": "華語碩士",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-69",
-    "school": "清華大學",
-    "dept": "經濟系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-70",
-    "school": "清華大學",
-    "dept": "科法所",
-    "group": "甲組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-71",
-    "school": "清華大學",
-    "dept": "科法所",
-    "group": "乙組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-72",
-    "school": "清華大學",
-    "dept": "科管所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-73",
-    "school": "清華大學",
-    "dept": "服科所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-74",
-    "school": "清華大學",
-    "dept": "計財系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-75",
-    "school": "清華大學",
-    "dept": "ＩＭＢＡ",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-76",
-    "school": "清華大學",
-    "dept": "學科所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-77",
-    "school": "清華大學",
-    "dept": "教科系課程教學",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-78",
-    "school": "清華大學",
-    "dept": "教科系行政評鑑",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-79",
-    "school": "清華大學",
-    "dept": "幼教系",
-    "group": "甲組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-80",
-    "school": "清華大學",
-    "dept": "幼教系",
-    "group": "乙組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-81",
-    "school": "清華大學",
-    "dept": "特教系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-82",
-    "school": "清華大學",
-    "dept": "心諮系",
-    "group": "甲組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-83",
-    "school": "清華大學",
-    "dept": "心諮系",
-    "group": "乙組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-84",
-    "school": "清華大學",
-    "dept": "心諮系",
-    "group": "丙組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-85",
-    "school": "清華大學",
-    "dept": "英教系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-86",
-    "school": "清華大學",
-    "dept": "環文系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-87",
-    "school": "清華大學",
-    "dept": "臺語所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-88",
-    "school": "清華大學",
-    "dept": "數理所",
-    "group": "甲組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-89",
-    "school": "清華大學",
-    "dept": "數理所",
-    "group": "乙組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-90",
-    "school": "清華大學",
-    "dept": "運科系",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-91",
-    "school": "清華大學",
-    "dept": "藝設系",
-    "group": "甲組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-92",
-    "school": "清華大學",
-    "dept": "藝設系",
-    "group": "乙組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-93",
-    "school": "清華大學",
-    "dept": "藝設系",
-    "group": "丙組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-94",
-    "school": "清華大學",
-    "dept": "科藝所",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-95",
-    "school": "清華大學",
-    "dept": "跨院碩士",
-    "group": "甲組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-96",
-    "school": "清華大學",
-    "dept": "跨院碩士",
-    "group": "乙組",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "nthu-97",
-    "school": "清華大學",
-    "dept": "永續科技",
-    "group": "",
-    "url": "https://adms.site.nthu.edu.tw/p/412-1207-17260.php?Lang=zh-tw",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "甄試",
-        "note": "甄試日期由各系所公告(簡章PDF為圖檔)",
-        "tentative": true
+        "type": "複試",
+        "note": "",
+        "tentative": false
       }
     ]
   }
