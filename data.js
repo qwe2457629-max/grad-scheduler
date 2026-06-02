@@ -1,5 +1,4 @@
 /* 研究所推甄 甄試時間衝突檢查 — data（115學年度真實資料・9校）
- *  台大214/陽明交大120/成大86/中山74/政大73/清華64/中興45/中正43/中央43
  *  解析器在 scraper/，來源見 SOURCES.md。正式上線更新116。 */
 
 const PROGRAMS =
@@ -3785,6 +3784,96 @@ const PROGRAMS =
     ]
   },
   {
+    "id": "nycu-120",
+    "school": "陽明交通大學",
+    "dept": "光電系統研究所",
+    "group": "",
+    "url": "https://exam.nycu.edu.tw/ma-md.php",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "學院聯招，複試日期請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "nycu-121",
+    "school": "陽明交通大學",
+    "dept": "多媒體工程研究所",
+    "group": "",
+    "url": "https://exam.nycu.edu.tw/ma-md.php",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "學院聯招，複試日期請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "nycu-122",
+    "school": "陽明交通大學",
+    "dept": "智慧與綠能產學研究所",
+    "group": "",
+    "url": "https://exam.nycu.edu.tw/ma-md.php",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "學院聯招，複試日期請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "nycu-123",
+    "school": "陽明交通大學",
+    "dept": "智慧計算與科技研究所",
+    "group": "",
+    "url": "https://exam.nycu.edu.tw/ma-md.php",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "學院聯招，複試日期請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
+    "id": "nycu-124",
+    "school": "陽明交通大學",
+    "dept": "照明與能源光電研究所",
+    "group": "",
+    "url": "https://exam.nycu.edu.tw/ma-md.php",
+    "reg": null,
+    "exams": [
+      {
+        "date": "",
+        "start": "",
+        "end": "",
+        "type": "複試",
+        "note": "學院聯招，複試日期請見系所公告",
+        "tentative": true
+      }
+    ]
+  },
+  {
     "id": "nchu-0",
     "school": "中興大學",
     "dept": "中國文學系",
@@ -4590,6 +4679,78 @@ const PROGRAMS =
         "end": "",
         "type": "面試",
         "note": "",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nchu-45",
+    "school": "中興大學",
+    "dept": "生物與永續科技碩士學位學程",
+    "group": "",
+    "url": "https://recruit.nchu.edu.tw/grade-exam/sele/index-sele.aspx?examc=A",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-15",
+        "start": "",
+        "end": "",
+        "type": "面試",
+        "note": "循環經濟研究學院農學程聯招群",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nchu-46",
+    "school": "中興大學",
+    "dept": "特用作物及代謝體碩士學位學程",
+    "group": "",
+    "url": "https://recruit.nchu.edu.tw/grade-exam/sele/index-sele.aspx?examc=A",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-15",
+        "start": "",
+        "end": "",
+        "type": "面試",
+        "note": "循環經濟研究學院農學程聯招群",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nchu-47",
+    "school": "中興大學",
+    "dept": "植物保健碩士學位學程",
+    "group": "",
+    "url": "https://recruit.nchu.edu.tw/grade-exam/sele/index-sele.aspx?examc=A",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-15",
+        "start": "",
+        "end": "",
+        "type": "面試",
+        "note": "循環經濟研究學院農學程聯招群",
+        "tentative": false
+      }
+    ]
+  },
+  {
+    "id": "nchu-48",
+    "school": "中興大學",
+    "dept": "國際精準農企業發展碩士學位學程",
+    "group": "",
+    "url": "https://recruit.nchu.edu.tw/grade-exam/sele/index-sele.aspx?examc=A",
+    "reg": null,
+    "exams": [
+      {
+        "date": "2025-11-15",
+        "start": "",
+        "end": "",
+        "type": "面試",
+        "note": "循環經濟研究學院農學程聯招群",
         "tentative": false
       }
     ]
@@ -7946,60 +8107,6 @@ const PROGRAMS =
     "id": "ncu-39",
     "school": "中央大學",
     "dept": "太空科學與工程學系",
-    "group": "",
-    "url": "https://admission.ncu.edu.tw/zh-TW/content/82/13",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ncu-40",
-    "school": "中央大學",
-    "dept": "永續去碳科技博士學位學程",
-    "group": "",
-    "url": "https://admission.ncu.edu.tw/zh-TW/content/82/13",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ncu-41",
-    "school": "中央大學",
-    "dept": "永續綠能科技博士學位學程",
-    "group": "",
-    "url": "https://admission.ncu.edu.tw/zh-TW/content/82/13",
-    "reg": null,
-    "exams": [
-      {
-        "date": "",
-        "start": "",
-        "end": "",
-        "type": "口試",
-        "note": "口試日期由各系所考前公告",
-        "tentative": true
-      }
-    ]
-  },
-  {
-    "id": "ncu-42",
-    "school": "中央大學",
-    "dept": "永續領導力博士學位學程",
     "group": "",
     "url": "https://admission.ncu.edu.tw/zh-TW/content/82/13",
     "reg": null,
